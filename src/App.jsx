@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import StarRating from "./StarRating";
+import LeftArrow from "./LeftArrow";
 
 const tempMovieData = [
   {
@@ -276,7 +277,7 @@ function MovieDetails({ selectedId, onCloseMovie }) {
         <>
           <header>
             <button className="btn-back" onClick={onCloseMovie}>
-              &larr;
+              <LeftArrow />
             </button>
             <img src={poster} alt={`{Poster of ${movie} movie}`} />
             <div className="details-overview">
