@@ -56,6 +56,9 @@ body {
   border-radius: 0.9rem;
   overflow: auto;
   position: relative;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) var(--color-background-500);
 }
 
 .loader {
