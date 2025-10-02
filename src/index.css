@@ -292,6 +292,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  overflow: auto;
 }
 
 .btn-add {
